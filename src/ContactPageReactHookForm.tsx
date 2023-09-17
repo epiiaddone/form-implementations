@@ -29,18 +29,17 @@ type Contact = {
         navigate(`/thank-you/${contact.name}`);
        }
 
-       function getEditorStyle(fieldError: FieldError | 
-        undefined) {
+       function getEditorStyle(fieldError: FieldError | undefined) {
          return fieldError ? 'border-red-500' : '';
         }
 
     const fieldStyle = "flex flex-col mb-2";
     
     return (
-    <div className="flex flex-col py-10 max-w-md 
-    mx-auto">
-    <h2 className="text-3xl font-bold underline 
-    mb-3">React Hook Form Contact Page</h2>
+    <div className="flex flex-col py-10 max-w-md mx-auto">
+    <h2 className="text-3xl font-bold underline mb-3">
+        React Hook Form Contact Page
+    </h2>
     <p className="mb-3">
 React Hook Form Library. Uses uncontrolled components. Uses custom validation.
 

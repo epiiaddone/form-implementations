@@ -24,7 +24,7 @@ import { ContactPageReactHookForm } from './ContactPageReactHookForm';
       <ContactPageNativeValidation/>
       <ContactPageReactHookForm/>
   </>,
-  action: contactPageRouterAction,
+  action: contactPageRouterAction, //for Router
   },
   {
   path: '/thank-you/:name',
